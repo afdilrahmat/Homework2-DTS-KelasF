@@ -1,0 +1,200 @@
+body {
+/* Home */
+
+position: relative;
+width: 1152px;
+height: 2041px;
+border-style: solid;
+
+background: #FFFFFF;
+}
+
+#afdil {
+  position: absolute;
+  width: 243px;
+  height: 243px;
+  left: 760px;
+  top: 210px;
+  border-radius: 50%;
+  z-index: 1;
+ }
+
+#kotak {
+  position: absolute;
+  width: 243px;
+  height: 243px;
+  left: 755px;
+  top: 223px;
+  border-radius: 50%;
+  z-index: 2;
+  background: #EDF7FA;
+
+} 
+
+.foto h1 {
+  position: absolute;
+  width: 506px;
+  height: 105px;
+  left: 148px;
+  top: 210px;
+  vertical-align: top;
+
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+  
+  
+  /* Dark Color */
+  
+  color: #21243D;}
+
+.aboutme p {
+  position: absolute;
+  width: 497px;
+  height: 66px;
+  left: 148px;
+  top: 373px;
+  
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: justify;
+  
+  
+  /* Dark Color */
+  
+  color: #21243D;
+}
+
+section {
+  /* Rectangle 23 */
+  position: absolute;
+  width: 1152px;
+  height: 396px;
+  left: 0px;
+  top: 595px;
+  background: #EDF7FA;
+}
+
+.headline-day h3 {
+  /* Headline */
+  position: absolute;
+  left: 12.85%;
+  right: 31.06%;
+  margin-top: 8px;
+  margin-bottom: 20px;
+
+  /* TITLE 2 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+
+  /* PRIMARY / GREEN */
+
+  color: #136223;
+}
+
+.tel img {
+  /* Vector */
+  position: absolute;
+  margin-left: 148px;
+  margin-top: 55.42px;
+  margin-bottom: 21.84px;
+  }
+
+.tel h3 {
+  position: absolute;
+  width: 180px;
+  height: 28.44px;
+  margin-left: 184.54px;
+  margin-top: 55.42px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+
+  color: #100101;
+}  
+
+.mail img {
+  /* Vector */
+  position: absolute;
+  margin-left: 143px;
+  margin-top: 70.42px;
+}
+
+.mail h3 {
+  position: absolute;
+  width: 355.26px;
+  height: 28.44px;
+  margin-left: 184.54px;
+  margin-top: 70.42px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+
+  color: #100101;
+}  
+
+.calculator img {
+  position: absolute;
+  margin-left: 147px;
+  margin-top: 105.42px;
+}
+
+.calculator h3 {
+  position: absolute;
+  width: 345.78px;
+  height: 28.44px;
+  margin-left: 184.54px;
+  margin-top: 105.42px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+
+  color: #0D0101;
+}
+
+.map img {
+  position: absolute;
+  margin-left: 143px;
+  margin-top: 140.42px;
+}
+
+.map h3 {
+  position: absolute;
+  width: 360.67px;
+  height: 28.44px;
+  margin-left: 184.54px;
+  margin-top: 140.42px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.05em;
+
+color: #0E0101;
+}
