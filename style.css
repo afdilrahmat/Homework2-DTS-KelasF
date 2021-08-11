@@ -9,6 +9,7 @@ border-style: solid;
 background: #FFFFFF;
 }
 
+/* ini foto */
 #afdil {
   position: absolute;
   width: 243px;
@@ -30,7 +31,9 @@ background: #FFFFFF;
   background: #EDF7FA;
 
 } 
+/* ini akhir foto */
 
+/* ini header nama dan profesi */
 .foto h1 {
   position: absolute;
   width: 506px;
@@ -50,7 +53,9 @@ background: #FFFFFF;
   /* Dark Color */
   
   color: #21243D;}
+/* ini header nama dan profesi */
 
+/* ini aboutme */
 .aboutme p {
   position: absolute;
   width: 497px;
@@ -70,7 +75,9 @@ background: #FFFFFF;
   
   color: #21243D;
 }
+/* akhir ini aboutme */
 
+/* ini section headline-day atau contact */
 section {
   /* Rectangle 23 */
   position: absolute;
@@ -105,7 +112,9 @@ section {
 
   color: #136223;
 }
+/* ini akhir section headline-day atau contact */
 
+/* ini contact */
 .tel img {
   /* Vector */
   position: absolute;
@@ -196,5 +205,142 @@ section {
   line-height: 19px;
   letter-spacing: 0.05em;
 
-color: #0E0101;
+  color: #0E0101;
 }
+/* ini akhir contact */
+
+/* ini education */
+.lesson {
+  /* Education */
+
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 398px;
+  height: 384px;
+  left: 578px;
+  margin-top: 0px;
+  position: absolute;
+  margin-bottom: 20px;
+}
+
+.lesson-education h3 {
+  /* Headline */
+
+  position: absolute;
+  left: 0%;
+  right: 17.42%;
+  margin-top: 8px;
+
+  /* TITLE 2 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+
+  /* PRIMARY / GREEN */
+
+  color: #136223;
+
+}
+
+.univ {
+  position: static;
+  width: 450px;
+  height: 17px;
+  
+  /* TITLE 3 */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  letter-spacing: 0.015em;
+
+  color: #000000;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: flex-start;
+  flex-grow: 0;
+  margin: 6px 0px;
+}
+
+.jurusan {
+  /* Your Major August 2017 - 2021(expected) */
+
+
+position: static;
+width: 450px;
+height: 15px;
+left: 0px;
+top: 23px;
+
+font-family: Inter;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+align-self: flex-start;
+flex-grow: 0;
+margin: 6px 0px;
+
+}
+
+ul {
+  position: static;
+  width: 398px;
+  height: 15px;
+  left: 0%;
+  top: 44px;
+
+  /* Description */
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #52575C;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  align-self: center;
+  flex-grow: 0;
+  margin: 6px 0px;
+  margin-right: 10px;
+  padding-right: 5px;
+  }
