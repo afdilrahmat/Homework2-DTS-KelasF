@@ -335,8 +335,6 @@ section {
     letter-spacing: 0.015em;
         
     color: #000000;}  
-  
-  
 
 ul {
   margin: 6px;
@@ -360,21 +358,325 @@ li {
   color: #52575C;
   }
 
-/* ini akhir contact */
-
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  padding: 10px;
-}
-
-.grid-item {
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
 }
 
 .flex-container {
   display: flex;
 }
 
+/* ini akhir contact */
+
+/* ini portfolio */
+.portfolio {
+  margin-top: 1020px;
+  margin-left: 146px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.015em;
+text-transform: uppercase;
+
+/* PRIMARY / GREEN */
+
+color: #136223;
+
+}
+
+.portfolio1 img {
+  position: absolute;
+  margin-left: 146px;
+  top: 1088px;  
+}
+
+.portfolio1 h3 {
+  position: absolute;
+  width: 305px;
+  height: 44px;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  /* identical to box height */
+
+  /* Dark Color */
+
+  color: #21243D;
+  margin-left: 445px;
+  margin-top: 18px;
+}
+
+.rectangle1 {
+  /* Rectangle 1 */
+
+  position: absolute;
+  width: 62px;
+  height: 25px;
+  margin-left: 445px;
+  top: 1150px;
+
+  background: #142850;
+  border-radius: 16px;
+}
+
+.tahun1 {
+  /* 2020 */
+
+  position: absolute;
+  width: 42px;
+  height: 60px;
+  margin-left: 455px;
+  top: 1115px;
+
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 60px;
+  /* identical to box height, or 333% */
+
+
+  color: #FFFFFF;
+
+}
+
+.software1 {
+  position: absolute;
+  width: 374px;
+  height: 34px;
+  margin-left: 535px;
+  top: 1129px;
+
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+
+  /* Light */
+
+  color: #8695A4;
+
+}
+
+.keterangan1 {
+  position: absolute;
+  width: 374px;
+  height: 34px;
+  margin-left: 445px;
+  top: 1180px;
+
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  /* Light */
+
+  color: #8695A4;
+
+}
+
+.portfolio2 img {
+  position: absolute;
+  margin-left: 146px;
+  top: 1350px;  
+}
+
+.portfolio2 h3 {
+  position: absolute;
+  width: 305px;
+  height: 44px;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  /* identical to box height */
+
+  /* Dark Color */
+
+  color: #21243D;
+  margin-left: 445px;
+  margin-top: 278px;
+}
+
+.rectangle2 {
+  /* Rectangle 2 */
+
+  position: absolute;
+  width: 62px;
+  height: 25px;
+  margin-left: 445px;
+  top: 1410px;
+
+  background: #142850;
+  border-radius: 16px;
+  z-index: -1;
+}
+
+.tahun2 {
+  /* 2020 */
+
+  position: absolute;
+  width: 42px;
+  height: 60px;
+  margin-left: 455px;
+  top: 1375px;
+
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 60px;
+  /* identical to box height, or 333% */
+
+  color: rgb(253, 251, 251);
+
+}
+
+.software2 {
+  position: absolute;
+  width: 374px;
+  height: 34px;
+  margin-left: 535px;
+  top: 1390px;
+
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+
+  /* Light */
+
+  color: #8695A4;
+
+}
+
+.keterangan2 {
+  position: absolute;
+  width: 374px;
+  height: 34px;
+  margin-left: 445px;
+  top: 1440px;
+
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  /* Light */
+
+  color: #8695A4;
+
+}
+
+.portfolio3 img {
+  position: absolute;
+  margin-left: 146px;
+  top: 1612px;  
+}
+
+.portfolio3 h3 {
+  position: absolute;
+  width: 305px;
+  height: 44px;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  /* identical to box height */
+
+  /* Dark Color */
+
+  color: #21243D;
+  margin-left: 445px;
+  margin-top: 538px;
+}
+
+.rectangle3 {
+  /* Rectangle 3 */
+
+  position: absolute;
+  width: 62px;
+  height: 25px;
+  margin-left: 445px;
+  top: 1670px;
+
+  background: #142850;
+  border-radius: 16px;
+  z-index: -1;
+}
+
+.tahun3 {
+  /* 2020 */
+
+  position: absolute;
+  width: 42px;
+  height: 60px;
+  margin-left: 455px;
+  top: 1635px;
+
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 60px;
+  /* identical to box height, or 333% */
+
+  color: rgb(255, 255, 255);
+
+}
+
+.software3 {
+  position: absolute;
+  width: 374px;
+  height: 34px;
+  margin-left: 535px;
+  top: 1650px;
+
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 29px;
+
+  /* Light */
+
+  color: #8695A4;
+
+}
+
+.keterangan3 {
+  position: absolute;
+  width: 374px;
+  height: 34px;
+  margin-left: 445px;
+  top: 1705px;
+
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  /* Light */
+
+  color: #8695A4;
+
+}
+
+.lesson-footer {
+  height:50px;
+  line-height:50px;
+  background:#333;
+  color:#fff;
+}
