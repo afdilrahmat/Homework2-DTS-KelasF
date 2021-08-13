@@ -1,45 +1,38 @@
 body {
 /* Home */
 
-position: relative;
-width: 1152px;
-height: 2041px;
-border-style: solid;
-
 background: #FFFFFF;
 }
 
 /* ini foto */
-#afdil {
-  position: absolute;
+.container {
+  width: 100%; 
+  margin: 0 auto
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+.col {
+  flex: 243px 243px;
+  margin-left: 106px;
+  margin-right: 149px;
+  margin-top: 210px;
+}
+
+.row img {
   width: 243px;
   height: 243px;
-  left: 760px;
-  top: 210px;
   border-radius: 50%;
-  z-index: 1;
  }
-
-#kotak {
-  position: absolute;
-  width: 243px;
-  height: 243px;
-  left: 755px;
-  top: 223px;
-  border-radius: 50%;
-  z-index: 2;
-  background: #EDF7FA;
-
-} 
 /* ini akhir foto */
 
 /* ini header nama dan profesi */
-.foto h1 {
-  position: absolute;
-  width: 506px;
-  height: 105px;
-  left: 148px;
-  top: 210px;
+.row h1 {
+  margin-top: 228px;
+  margin-left: 148px;
   vertical-align: top;
 
   font-family: Heebo;
@@ -56,13 +49,12 @@ background: #FFFFFF;
 /* ini header nama dan profesi */
 
 /* ini aboutme */
-.aboutme p {
+.row p {
   position: absolute;
-  width: 497px;
+  margin-top: 373px;
+  margin-left: 148px;
+  width: 480px;
   height: 66px;
-  left: 148px;
-  top: 373px;
-  
   font-family: Heebo;
   font-style: normal;
   font-weight: normal;
@@ -83,16 +75,15 @@ section {
   position: absolute;
   width: 1152px;
   height: 396px;
-  left: 0px;
-  top: 595px;
+  margin-left: 0px;
+  margin-top: 156px;
   background: #EDF7FA;
 }
 
 .grid-item1 {
   /* Headline */
   display: grid;
-  margin-right: 148px;
-  margin-left: 140px;
+  margin-left: 146px;
   margin-top: 8px;
   margin-bottom: 0px;
 
@@ -116,7 +107,7 @@ section {
 .grid-item2 {
   /* Headline */
   display: grid;  
-  margin-left: 148pxx;
+  margin-left: 148px;
   margin-top: 8px;
 
   /* TITLE 2 */
@@ -169,7 +160,7 @@ section {
   /* Vector */
   display: flex;
   position: absolute;
-  margin-left: 144px;
+  margin-left: 148px;
   margin-top: 30px;
 }
 
@@ -194,7 +185,7 @@ section {
   /* Vector */
   display: flex;
   position: absolute;
-  margin-left: 146px;
+  margin-left: 150.27px;
   margin-top: 60px;
 }
 
@@ -219,7 +210,7 @@ section {
   /* Vector */
   display: flex;
   position: absolute;
-  margin-left: 142px;
+  margin-left: 150.65px;
   margin-top: 90px;
 }
 
@@ -371,8 +362,10 @@ li {
 
 /* ini portfolio */
 .portfolio {
-  margin-top: 1020px;
-  margin-left: 146px;
+  position: absolute;
+  margin-left: 148px;
+  margin-top: 581px;
+
   font-family: Inter;
   font-style: normal;
   font-weight: 600;
@@ -392,7 +385,7 @@ color: #136223;
 .portfolio1 img {
   position: absolute;
   margin-left: 146px;
-  top: 1088px;  
+  margin-top: 649px;
 }
 
 .portfolio1 h3 {
@@ -410,7 +403,7 @@ color: #136223;
 
   color: #21243D;
   margin-left: 445px;
-  margin-top: 18px;
+  margin-top: 638px;
 }
 
 .rectangle1 {
@@ -505,7 +498,7 @@ color: #136223;
 
   color: #21243D;
   margin-left: 445px;
-  margin-top: 278px;
+  margin-top: 885px;
 }
 
 .rectangle2 {
@@ -600,7 +593,7 @@ color: #136223;
 
   color: #21243D;
   margin-left: 445px;
-  margin-top: 538px;
+  margin-top: 1145px;
 }
 
 .rectangle3 {
@@ -674,9 +667,32 @@ color: #136223;
 
 }
 
-.lesson-footer {
-  height:50px;
-  line-height:50px;
-  background:#333;
+.footer {
+
   color:#fff;
 }
+
+.siteFooterBar {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 1420px;
+  margin-left: 549px;
+}
+
+.siteFooterBar > div {
+  margin-right: 35px;
+}
+
+footer p {
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  
+  /* Dark */
+  
+  color: #21243D;
+  }
