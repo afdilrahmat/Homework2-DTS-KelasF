@@ -667,9 +667,20 @@ color: #136223;
 
 }
 
-.footer {
+footer p {
+  text-align: center;
+  font-family: Heebo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  
+  /* Dark */
+  
+  color: #21243D;
 
-  color:#fff;
 }
 
 .siteFooterBar {
@@ -682,17 +693,3 @@ color: #136223;
 .siteFooterBar > div {
   margin-right: 35px;
 }
-
-footer p {
-  font-family: Heebo;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 21px;
-  /* identical to box height */
-  
-  
-  /* Dark */
-  
-  color: #21243D;
-  }
